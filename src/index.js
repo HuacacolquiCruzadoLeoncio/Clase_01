@@ -11,12 +11,14 @@ const App = () => {
     <StrictMode>
       <Navbar />
       <Header />
-      <div style={{ display: 'flex' }}>
-        <div style={{ flex: '1', marginRight: '20px' }}>
-          <Carousel style={{ height: '400px' }} /> 
-        </div>
-        <div>
-          <RegistrationForm />
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-6 mb-3">
+            <Carousel />
+          </div>
+          <div className="col-md-6">
+            <RegistrationForm />
+          </div>
         </div>
       </div>
       <ServiceDescription /> 

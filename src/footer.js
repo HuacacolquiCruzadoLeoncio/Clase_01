@@ -1,7 +1,7 @@
-const Footer = () => {
-    return <footer>
-        <p>footer</p>
-    </footer>;
+const Aside = () => {
+    return <aside>
+        <p>aside</p>
+    </aside>;
 }
 
-export default Footer;
+export default Aside;

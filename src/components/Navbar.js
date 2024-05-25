@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <a className="navbar-brand" href="#">SuccesObject</a>
+        <a className="navbar-brand" href="#">
+          <img src="https://example.com/tuhttps://media.licdn.com/dms/image/C4E03AQGa0x8EnJYBcw/profile-displayphoto-shrink_800_800/0/1601359183832?e=2147483647&v=beta&t=_jzcyPqjlQhGjg6uzHjZB5sgM1nDhkckIewCw-dWJeQ-logo.png" alt="Logo" width="50" height="50" className="d-inline-block align-middle mr-2" /> SuccesObject
+        </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
